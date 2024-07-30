@@ -1,6 +1,6 @@
 VALVE_FIRMWARE_VERSION = 20231113.1
 VALVE_FIRMWARE_SOURCE = linux-firmware-neptune-jupiter.$(VALVE_FIRMWARE_VERSION)-1-any.pkg.tar.zst
-VALVE_FIRMWARE_SITE = https://steamdeck-packages.steamos.cloud/archlinux-mirror/jupiter-main/os/x86_64/
+VALVE_FIRMWARE_SITE = https://steamdeck-packages.steamos.cloud/archlinux-mirror/jupiter-main/os/x86_64
 
 define VALVE_FIRMWARE_EXTRACT_CMDS
     tar -xf $(DL_DIR)/$(VALVE_FIRMWARE_SOURCE) -C $(BUILD_DIR)
