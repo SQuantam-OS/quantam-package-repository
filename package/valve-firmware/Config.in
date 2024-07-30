@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VALVE_FIRMWARE
+    bool "valve-firmware"
+    help
+      This package is used to make stuff work with the Steam Deck made by LukeShortCloud ported by GuestSneezeOSDev and LukeShortCloud.
