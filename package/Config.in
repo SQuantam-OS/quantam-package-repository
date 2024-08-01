@@ -1,1 +1,2 @@
+# This should ONLY be used in busybox
 source "package/valve-firmware/Config.in"
