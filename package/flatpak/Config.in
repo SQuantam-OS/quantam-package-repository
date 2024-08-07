@@ -1,0 +1,5 @@
+config BR2_PACKAGE_FLATPAK
+    bool "flatpak"
+    depends on BR2_PACKAGE_LIBXML2
+    help
+      Flatpak is a system for building, distributing, and running sandboxed desktop applications on Unix-based OSes.
