@@ -1,2 +1,2 @@
-# This should ONLY be used in busybox
 source "package/valve-firmware/Config.in"
+source "package/flatpak/Config.in"
